@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b4a4f3713e5b80abb627744adb0dfcd5",
+    "content-hash": "fb4661f83035297f7fa5cafdaea115e3",
     "packages": [
         {
-            "name": "deltareporter/phpunit-client",
+            "name": "delta-reporter/phpunit-client",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/delta-reporter/delta-reporter-phpunit.git",
+                "reference": "82ef26571df1241708b82083437037f819835023"
+            },
             "dist": {
-                "type": "path",
-                "url": "../delta-reporter-phpunit-service",
-                "reference": "880ca9ff9e720925a91925ca3c0f53bf5f5b0576"
+                "type": "zip",
+                "url": "https://api.github.com/repos/delta-reporter/delta-reporter-phpunit/zipball/82ef26571df1241708b82083437037f819835023",
+                "reference": "82ef26571df1241708b82083437037f819835023",
+                "shasum": ""
             },
             "require": {
                 "guzzlehttp/guzzle": "*",
@@ -29,8 +35,9 @@
                     "src"
                 ]
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "MIT"
+                "Apache-2.0"
             ],
             "authors": [
                 {
@@ -40,16 +47,14 @@
                 }
             ],
             "description": "Delta Reporter service for PHPUnit tests",
-            "homepage": "https://github.com/deltareporter/delta-reporter-phpunit-client",
+            "homepage": "https://github.com/delta-reporter/delta-reporter-phpunit",
             "keywords": [
                 "Delta Reporter",
-                "PHPUnit",
-                "Report",
-                "Reporting"
+                "phpunit",
+                "report",
+                "reporting"
             ],
-            "transport-options": {
-                "symlink": true
-            }
+            "time": "2020-03-28T22:50:36+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -314,12 +319,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "b2c28789e80a97badd14145fda39b545d83ca3ef"
+                "reference": "a491d65139e2411c75704e871dd02bdddf5a4bdc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/b2c28789e80a97badd14145fda39b545d83ca3ef",
-                "reference": "b2c28789e80a97badd14145fda39b545d83ca3ef",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/a491d65139e2411c75704e871dd02bdddf5a4bdc",
+                "reference": "a491d65139e2411c75704e871dd02bdddf5a4bdc",
                 "shasum": ""
             },
             "require": {
@@ -354,7 +359,7 @@
                 "object",
                 "object graph"
             ],
-            "time": "2020-01-17T21:11:47+00:00"
+            "time": "2020-03-12T21:49:07+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -573,12 +578,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/TypeResolver.git",
-                "reference": "aa06ba38ed9e5133feb70ea95b42a2e5354f52b8"
+                "reference": "d6b5291650d058fe1162a54fee9d923de19bcda2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/aa06ba38ed9e5133feb70ea95b42a2e5354f52b8",
-                "reference": "aa06ba38ed9e5133feb70ea95b42a2e5354f52b8",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/d6b5291650d058fe1162a54fee9d923de19bcda2",
+                "reference": "d6b5291650d058fe1162a54fee9d923de19bcda2",
                 "shasum": ""
             },
             "require": {
@@ -611,7 +616,7 @@
                 }
             ],
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
-            "time": "2020-03-01T10:45:06+00:00"
+            "time": "2020-03-06T17:11:40+00:00"
         },
         {
             "name": "phpspec/prophecy",
@@ -619,12 +624,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "b4400efc9d206e83138e2bb97ed7f5b14b831cd9"
+                "reference": "451c3cd1418cf640de218914901e51b064abb093"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/b4400efc9d206e83138e2bb97ed7f5b14b831cd9",
-                "reference": "b4400efc9d206e83138e2bb97ed7f5b14b831cd9",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/451c3cd1418cf640de218914901e51b064abb093",
+                "reference": "451c3cd1418cf640de218914901e51b064abb093",
                 "shasum": ""
             },
             "require": {
@@ -674,7 +679,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2020-01-20T15:57:02+00:00"
+            "time": "2020-03-05T15:02:03+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -682,12 +687,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "f5ac3da4d8492babdba51d0de74d27e60b2e14e5"
+                "reference": "aad7a1a2fae5ec50a0c0c5d6333c663329ad798a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/f5ac3da4d8492babdba51d0de74d27e60b2e14e5",
-                "reference": "f5ac3da4d8492babdba51d0de74d27e60b2e14e5",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/aad7a1a2fae5ec50a0c0c5d6333c663329ad798a",
+                "reference": "aad7a1a2fae5ec50a0c0c5d6333c663329ad798a",
                 "shasum": ""
             },
             "require": {
@@ -738,7 +743,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2020-02-25T13:21:52+00:00"
+            "time": "2020-03-23T14:22:29+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -796,12 +801,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-invoker.git",
-                "reference": "3300df078d14b43369449932c5d2bcb15671b311"
+                "reference": "0f93c44f8c87c0a484a462068868ab2e007ed0b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-invoker/zipball/3300df078d14b43369449932c5d2bcb15671b311",
-                "reference": "3300df078d14b43369449932c5d2bcb15671b311",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-invoker/zipball/0f93c44f8c87c0a484a462068868ab2e007ed0b8",
+                "reference": "0f93c44f8c87c0a484a462068868ab2e007ed0b8",
                 "shasum": ""
             },
             "require": {
@@ -841,7 +846,7 @@
             "keywords": [
                 "process"
             ],
-            "time": "2020-02-25T13:15:18+00:00"
+            "time": "2020-03-23T14:24:07+00:00"
         },
         {
             "name": "phpunit/php-text-template",
@@ -898,12 +903,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-timer.git",
-                "reference": "f1c807f8063c53c635d83d7c8b970256d5babb65"
+                "reference": "1c88417d36814a3376c89e745baa326136115b92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/f1c807f8063c53c635d83d7c8b970256d5babb65",
-                "reference": "f1c807f8063c53c635d83d7c8b970256d5babb65",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/1c88417d36814a3376c89e745baa326136115b92",
+                "reference": "1c88417d36814a3376c89e745baa326136115b92",
                 "shasum": ""
             },
             "require": {
@@ -939,7 +944,7 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2020-02-25T13:15:27+00:00"
+            "time": "2020-03-23T14:24:17+00:00"
         },
         {
             "name": "phpunit/php-token-stream",
@@ -947,12 +952,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "29de759976fd205b0269b8ee6ea797bff780e6e8"
+                "reference": "de0fae73b0d4ac09e72c308fb7c8aa37222192f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/29de759976fd205b0269b8ee6ea797bff780e6e8",
-                "reference": "29de759976fd205b0269b8ee6ea797bff780e6e8",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/de0fae73b0d4ac09e72c308fb7c8aa37222192f0",
+                "reference": "de0fae73b0d4ac09e72c308fb7c8aa37222192f0",
                 "shasum": ""
             },
             "require": {
@@ -988,7 +993,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2020-02-25T10:35:03+00:00"
+            "time": "2020-03-23T14:24:27+00:00"
         },
         {
             "name": "phpunit/phpunit",
@@ -996,12 +1001,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "0cf63a357c218247e5c9549c49110c6595be108e"
+                "reference": "21d69d148e4a4ffbd039618840940a7fe8cb55c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/0cf63a357c218247e5c9549c49110c6595be108e",
-                "reference": "0cf63a357c218247e5c9549c49110c6595be108e",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/21d69d148e4a4ffbd039618840940a7fe8cb55c9",
+                "reference": "21d69d148e4a4ffbd039618840940a7fe8cb55c9",
                 "shasum": ""
             },
             "require": {
@@ -1034,7 +1039,8 @@
                 "sebastian/version": "^3.0"
             },
             "require-dev": {
-                "ext-pdo": "*"
+                "ext-pdo": "*",
+                "phpspec/prophecy-phpunit": "^2.0"
             },
             "suggest": {
                 "ext-soap": "*",
@@ -1075,7 +1081,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2020-03-01T19:48:02+00:00"
+            "time": "2020-03-29T12:12:35+00:00"
         },
         {
             "name": "psr/http-client",
@@ -1222,12 +1228,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/code-unit.git",
-                "reference": "5ca5a3ab1f7c63fd1789a89fa4973d49a68d2252"
+                "reference": "dde01b7318295fa5d6734810880b5d9c57fae068"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/code-unit/zipball/5ca5a3ab1f7c63fd1789a89fa4973d49a68d2252",
-                "reference": "5ca5a3ab1f7c63fd1789a89fa4973d49a68d2252",
+                "url": "https://api.github.com/repos/sebastianbergmann/code-unit/zipball/dde01b7318295fa5d6734810880b5d9c57fae068",
+                "reference": "dde01b7318295fa5d6734810880b5d9c57fae068",
                 "shasum": ""
             },
             "require": {
@@ -1260,7 +1266,7 @@
             ],
             "description": "Collection of value objects that represent the PHP code units",
             "homepage": "https://github.com/sebastianbergmann/code-unit",
-            "time": "2020-03-01T20:01:38+00:00"
+            "time": "2020-03-23T14:22:38+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -1268,12 +1274,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/code-unit-reverse-lookup.git",
-                "reference": "844c92f5e7147a75cc2cfce31ea4898bb8d5687f"
+                "reference": "df3c982f88ffd6fa28e6e7bfa2cd4ccee3f8962e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/code-unit-reverse-lookup/zipball/844c92f5e7147a75cc2cfce31ea4898bb8d5687f",
-                "reference": "844c92f5e7147a75cc2cfce31ea4898bb8d5687f",
+                "url": "https://api.github.com/repos/sebastianbergmann/code-unit-reverse-lookup/zipball/df3c982f88ffd6fa28e6e7bfa2cd4ccee3f8962e",
+                "reference": "df3c982f88ffd6fa28e6e7bfa2cd4ccee3f8962e",
                 "shasum": ""
             },
             "require": {
@@ -1305,7 +1311,7 @@
             ],
             "description": "Looks up which function or method a line of code belongs to",
             "homepage": "https://github.com/sebastianbergmann/code-unit-reverse-lookup/",
-            "time": "2020-02-25T13:14:07+00:00"
+            "time": "2020-03-23T14:22:49+00:00"
         },
         {
             "name": "sebastian/comparator",
@@ -1313,12 +1319,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/comparator.git",
-                "reference": "9ed7bfc1b7867a42f6ea1e09552cf1c26016419e"
+                "reference": "2c15e01425cfc66d6cae9bce40497be315f153b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/9ed7bfc1b7867a42f6ea1e09552cf1c26016419e",
-                "reference": "9ed7bfc1b7867a42f6ea1e09552cf1c26016419e",
+                "url": "https://api.github.com/repos/sebastianbergmann/comparator/zipball/2c15e01425cfc66d6cae9bce40497be315f153b1",
+                "reference": "2c15e01425cfc66d6cae9bce40497be315f153b1",
                 "shasum": ""
             },
             "require": {
@@ -1369,7 +1375,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2020-02-25T13:14:15+00:00"
+            "time": "2020-03-26T06:08:09+00:00"
         },
         {
             "name": "sebastian/diff",
@@ -1377,12 +1383,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/diff.git",
-                "reference": "f9f2d51ff8c17482063bf6af51fc6b76175d4149"
+                "reference": "550ed27830458c9d040ef66f6eb24480ed5f9efc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/f9f2d51ff8c17482063bf6af51fc6b76175d4149",
-                "reference": "f9f2d51ff8c17482063bf6af51fc6b76175d4149",
+                "url": "https://api.github.com/repos/sebastianbergmann/diff/zipball/550ed27830458c9d040ef66f6eb24480ed5f9efc",
+                "reference": "550ed27830458c9d040ef66f6eb24480ed5f9efc",
                 "shasum": ""
             },
             "require": {
@@ -1425,7 +1431,7 @@
                 "unidiff",
                 "unified diff"
             ],
-            "time": "2020-02-25T13:14:24+00:00"
+            "time": "2020-03-23T14:23:10+00:00"
         },
         {
             "name": "sebastian/environment",
@@ -1433,12 +1439,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "1b4239e2400f906112acb4521d62c3fb621f8ed3"
+                "reference": "3d844f6a52fb109778aa8e80cbb3675ac07c6a76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/1b4239e2400f906112acb4521d62c3fb621f8ed3",
-                "reference": "1b4239e2400f906112acb4521d62c3fb621f8ed3",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/3d844f6a52fb109778aa8e80cbb3675ac07c6a76",
+                "reference": "3d844f6a52fb109778aa8e80cbb3675ac07c6a76",
                 "shasum": ""
             },
             "require": {
@@ -1478,7 +1484,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2020-02-25T13:14:33+00:00"
+            "time": "2020-03-23T14:23:19+00:00"
         },
         {
             "name": "sebastian/exporter",
@@ -1486,12 +1492,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/exporter.git",
-                "reference": "79384d73dd85f6d3c2f8c1833f93523a3c9530ee"
+                "reference": "a180b8a185b973cad2f692913b40c8e776618954"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/79384d73dd85f6d3c2f8c1833f93523a3c9530ee",
-                "reference": "79384d73dd85f6d3c2f8c1833f93523a3c9530ee",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/a180b8a185b973cad2f692913b40c8e776618954",
+                "reference": "a180b8a185b973cad2f692913b40c8e776618954",
                 "shasum": ""
             },
             "require": {
@@ -1545,7 +1551,7 @@
                 "export",
                 "exporter"
             ],
-            "time": "2020-02-25T13:22:38+00:00"
+            "time": "2020-03-23T14:23:29+00:00"
         },
         {
             "name": "sebastian/global-state",
@@ -1553,12 +1559,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/global-state.git",
-                "reference": "31a909bf51dfd21999e4126cdb9a9e4a8a08e6eb"
+                "reference": "f2c4ebf08c83cda489439c30534e2ebe8dd20afc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/31a909bf51dfd21999e4126cdb9a9e4a8a08e6eb",
-                "reference": "31a909bf51dfd21999e4126cdb9a9e4a8a08e6eb",
+                "url": "https://api.github.com/repos/sebastianbergmann/global-state/zipball/f2c4ebf08c83cda489439c30534e2ebe8dd20afc",
+                "reference": "f2c4ebf08c83cda489439c30534e2ebe8dd20afc",
                 "shasum": ""
             },
             "require": {
@@ -1599,7 +1605,7 @@
             "keywords": [
                 "global state"
             ],
-            "time": "2020-02-25T13:23:04+00:00"
+            "time": "2020-03-23T14:23:38+00:00"
         },
         {
             "name": "sebastian/object-enumerator",
@@ -1607,12 +1613,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/object-enumerator.git",
-                "reference": "7551b7b9fb8b03b70aaf5590a51847fa78aafb4b"
+                "reference": "c75ec7dcfb24398862ce11eaa78ae8b9bcd966ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/object-enumerator/zipball/7551b7b9fb8b03b70aaf5590a51847fa78aafb4b",
-                "reference": "7551b7b9fb8b03b70aaf5590a51847fa78aafb4b",
+                "url": "https://api.github.com/repos/sebastianbergmann/object-enumerator/zipball/c75ec7dcfb24398862ce11eaa78ae8b9bcd966ba",
+                "reference": "c75ec7dcfb24398862ce11eaa78ae8b9bcd966ba",
                 "shasum": ""
             },
             "require": {
@@ -1646,7 +1652,7 @@
             ],
             "description": "Traverses array structures and object graphs to enumerate all referenced objects",
             "homepage": "https://github.com/sebastianbergmann/object-enumerator/",
-            "time": "2020-02-25T13:15:00+00:00"
+            "time": "2020-03-23T14:23:48+00:00"
         },
         {
             "name": "sebastian/object-reflector",
@@ -1654,12 +1660,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/object-reflector.git",
-                "reference": "ac775ca88f12fdcaf3cf60d10b1d2c802e2482e4"
+                "reference": "d88c23305e2b35af2a7a6418f6a6e4810f668630"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/object-reflector/zipball/ac775ca88f12fdcaf3cf60d10b1d2c802e2482e4",
-                "reference": "ac775ca88f12fdcaf3cf60d10b1d2c802e2482e4",
+                "url": "https://api.github.com/repos/sebastianbergmann/object-reflector/zipball/d88c23305e2b35af2a7a6418f6a6e4810f668630",
+                "reference": "d88c23305e2b35af2a7a6418f6a6e4810f668630",
                 "shasum": ""
             },
             "require": {
@@ -1691,7 +1697,7 @@
             ],
             "description": "Allows reflection of object attributes, including inherited and non-public ones",
             "homepage": "https://github.com/sebastianbergmann/object-reflector/",
-            "time": "2020-02-25T13:15:09+00:00"
+            "time": "2020-03-23T14:23:57+00:00"
         },
         {
             "name": "sebastian/recursion-context",
@@ -1699,12 +1705,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/recursion-context.git",
-                "reference": "47f1fdf553a3b53ba1866abdc4161daf28195e3d"
+                "reference": "4e3bc1923d0f6f4e03ef9915eda027740739d543"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/47f1fdf553a3b53ba1866abdc4161daf28195e3d",
-                "reference": "47f1fdf553a3b53ba1866abdc4161daf28195e3d",
+                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/4e3bc1923d0f6f4e03ef9915eda027740739d543",
+                "reference": "4e3bc1923d0f6f4e03ef9915eda027740739d543",
                 "shasum": ""
             },
             "require": {
@@ -1744,7 +1750,7 @@
             ],
             "description": "Provides functionality to recursively process PHP variables",
             "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
-            "time": "2020-02-25T13:15:41+00:00"
+            "time": "2020-03-23T14:24:37+00:00"
         },
         {
             "name": "sebastian/resource-operations",
@@ -1797,12 +1803,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/type.git",
-                "reference": "606ce92a218d0b72655b8d67bbe25694d9551e80"
+                "reference": "63f7de27c9bb04fb3fd188b2e1beac98c4b407f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/606ce92a218d0b72655b8d67bbe25694d9551e80",
-                "reference": "606ce92a218d0b72655b8d67bbe25694d9551e80",
+                "url": "https://api.github.com/repos/sebastianbergmann/type/zipball/63f7de27c9bb04fb3fd188b2e1beac98c4b407f2",
+                "reference": "63f7de27c9bb04fb3fd188b2e1beac98c4b407f2",
                 "shasum": ""
             },
             "require": {
@@ -1835,7 +1841,7 @@
             ],
             "description": "Collection of value objects that represent the types of the PHP type system",
             "homepage": "https://github.com/sebastianbergmann/type",
-            "time": "2020-02-25T13:15:50+00:00"
+            "time": "2020-03-23T14:24:47+00:00"
         },
         {
             "name": "sebastian/version",
@@ -1990,12 +1996,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "0c7023a90e80d7819bb03483c027f3dee963b42a"
+                "reference": "bfce19db74f33b4b4c0aa732008bdaf58c2727c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/0c7023a90e80d7819bb03483c027f3dee963b42a",
-                "reference": "0c7023a90e80d7819bb03483c027f3dee963b42a",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/bfce19db74f33b4b4c0aa732008bdaf58c2727c2",
+                "reference": "bfce19db74f33b4b4c0aa732008bdaf58c2727c2",
                 "shasum": ""
             },
             "require": {
@@ -2045,7 +2051,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2020-02-08T14:04:50+00:00"
+            "time": "2020-03-16T13:12:54+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -2140,7 +2146,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "deltareporter/phpunit-client": 20
+        "delta-reporter/phpunit-client": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -1,0 +1,3 @@
+[submodule "delta-reporter-phpunit"]
+	path = delta-reporter-phpunit
+	url = git@github.com:delta-reporter/delta-reporter-phpunit.git

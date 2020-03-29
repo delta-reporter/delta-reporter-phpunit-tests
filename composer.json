@@ -13,14 +13,14 @@
     "repositories": [
         {
             "type": "path",
-            "url": "..",
+            "url": "../delta-reporter-phpunit",
             "options": {
                 "symlink": true
             }
         }
     ],
     "require": {
-        "deltareporter/phpunit-client": "@dev"
+        "delta-reporter/phpunit-client": "@dev"
     },
     "autoload": {
         "classmap": [
