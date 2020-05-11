@@ -5,7 +5,7 @@ These tests are intended as a example to use Delta Reporter's PHPUnit client, wh
 To clone this repo along with the submodule use:
 
 ```
-git clone --recurse-submodules https://github.com/chaconinc/MainProject
+git clone --recurse-submodules https://github.com/delta-reporter/delta-reporter-phpunit-tests.git
 ```
 
 Then install the required packages with
