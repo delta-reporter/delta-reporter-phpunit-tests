@@ -10,7 +10,7 @@
     <listeners>
         <listener class="DeltaReporter\PHPUnitService" file="vendor/delta-reporter/phpunit-client/src/PHPUnitService.php">
             <arguments>
-                <string>http://localhost:5001</string>
+                <string>http://localhost:5000</string>
                 <string>Delta Reporter</string>
                 <string>PHP Unit Tests</string>
             </arguments>
